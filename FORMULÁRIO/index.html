@@ -9,7 +9,7 @@
     <body>
         <div class="container">
             <div class="header">
-                <h3>Cadastre seu veículo para vender mais rápido!</h3>
+                <h2>Cadastre seu veículo para vender mais rápido!</h2>
             </div>
             <div class="form-container">
             <div class="form-header">
@@ -100,6 +100,7 @@
                         <label for="auto">Automático</label>
                     </div>
                     <div class="optional-box">
+                        <p>Opcionais</p>
                         <ul class="optional-list">
                             <li>
                                 <input type="checkbox" id="airbag" name="optional[]" value="airbag">
@@ -120,7 +121,6 @@
                         </ul>
                     </div>
                      <div class="optional-box">
-                        <p>Opcionais</p>
                         <ul class="optional-list">
                             <li>
                                 <input type="checkbox" id="lane_assist" name="optional[]" value="lane_assist">
@@ -138,9 +138,10 @@
                                 <input type="checkbox" id="leather_seat" name="optional[]" value="leather_seat">
                                 <label for="leather_seat">Banco de Couro</label>
                             </li>
-                        </ul>
+                        </ul> 
+                    </div>
                     <div class="box-input">
-                        <p>Fotos do carro: <span class="requirefield">*</span></p>
+                        <p>Fotos do carro: <span class="required-field">*</span></p>
                         <input 
                         type="file" 
                         multiple accept="imagem/png, image/jpg" 
@@ -148,8 +149,7 @@
                         name="images" 
                         required
                         />
-                    </div>  
-                    </div>
+                    </div> 
                     <input type="submit" value="Enviar" class="btn-submit"/>
                 </form>
             </div>
